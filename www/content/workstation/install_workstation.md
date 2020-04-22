@@ -122,6 +122,10 @@ macOS
     **Download** button.
 3.  Follow the steps to accept the license and install Chef Workstation.
 
+Alternately, install Chef Workstation using Homebrew:
+
+`brew cask install chef/chef/chef-workstation`
+
 Windows
 -------
 
