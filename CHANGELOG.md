@@ -1,15 +1,32 @@
 <!-- usage documentation: https://expeditor.chef.io/docs/reference/changelog/ -->
-<!-- latest_release 0.17.18 -->
-## [0.17.18](https://github.com/chef/chef-workstation/tree/0.17.18) (2020-04-14)
+<!-- latest_release 20.4.8 -->
+## [20.4.8](https://github.com/chef/chef-workstation/tree/20.4.8) (2020-04-27)
 
 #### Merged Pull Requests
-- Explicitly build bcrypt_pbkdf-ruby [#1079](https://github.com/chef/chef-workstation/pull/1079) ([marcparadise](https://github.com/marcparadise))
+- Im/standardize hugo content [#1102](https://github.com/chef/chef-workstation/pull/1102) ([IanMadd](https://github.com/IanMadd))
 <!-- latest_release -->
 
 <!-- release_rollup since=0.17.5 -->
 ### Changes since 0.17.5 release
 
 #### Merged Pull Requests
+- Im/standardize hugo content [#1102](https://github.com/chef/chef-workstation/pull/1102) ([IanMadd](https://github.com/IanMadd)) <!-- 20.4.8 -->
+- Update git-custom-bindir to 2.26.2 [#1124](https://github.com/chef/chef-workstation/pull/1124) ([clintoncwolfe](https://github.com/clintoncwolfe)) <!-- 20.4.7 -->
+- Update Cookstyle to 6.3 / Chefstyle to 1.0 [#1061](https://github.com/chef/chef-workstation/pull/1061) ([tas50](https://github.com/tas50)) <!-- 20.4.6 -->
+- Unpinning train for upcoming major version release [#1111](https://github.com/chef/chef-workstation/pull/1111) ([tyler-ball](https://github.com/tyler-ball)) <!-- 20.4.5 -->
+- Bump omnibus-software from `eb8812b` to `5f57d0a` in /omnibus [#1125](https://github.com/chef/chef-workstation/pull/1125) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 20.4.4 -->
+- Forgot to perform release build on version bump [#1127](https://github.com/chef/chef-workstation/pull/1127) ([tyler-ball](https://github.com/tyler-ball)) <!-- 20.4.3 -->
+- Switching to date based versioning [#1112](https://github.com/chef/chef-workstation/pull/1112) ([tyler-ball](https://github.com/tyler-ball)) <!-- 20.4.2 -->
+- Manually building and installing docker-api gem [#1122](https://github.com/chef/chef-workstation/pull/1122) ([tyler-ball](https://github.com/tyler-ball)) <!-- 0.17.28 -->
+- Add empty third party pkg pipeline to expeditor [#1108](https://github.com/chef/chef-workstation/pull/1108) ([marcparadise](https://github.com/marcparadise)) <!-- 0.17.27 -->
+- Add missing node options for policyfiles [#1091](https://github.com/chef/chef-workstation/pull/1091) ([jmassardo](https://github.com/jmassardo)) <!-- 0.17.26 -->
+- Clarify Windows requirements [#1089](https://github.com/chef/chef-workstation/pull/1089) ([jmassardo](https://github.com/jmassardo)) <!-- 0.17.25 -->
+- Add Windows examples [#1088](https://github.com/chef/chef-workstation/pull/1088) ([jmassardo](https://github.com/jmassardo)) <!-- 0.17.24 -->
+- Batching multiple PRs into 1 for ease of bumping dependencies [#1110](https://github.com/chef/chef-workstation/pull/1110) ([tyler-ball](https://github.com/tyler-ball)) <!-- 0.17.23 -->
+- Add go.mod file so we can preview changes to workstation docs locally [#1092](https://github.com/chef/chef-workstation/pull/1092) ([IanMadd](https://github.com/IanMadd)) <!-- 0.17.22 -->
+- Patch docker-api to use CGI.escape to silence deprecation warning [#1090](https://github.com/chef/chef-workstation/pull/1090) ([clintoncwolfe](https://github.com/clintoncwolfe)) <!-- 0.17.21 -->
+- Forgot to vendor the latest version of go-libs when we updated [#1101](https://github.com/chef/chef-workstation/pull/1101) ([tyler-ball](https://github.com/tyler-ball)) <!-- 0.17.20 -->
+- adding gen for dist, using dist in the executables [#1087](https://github.com/chef/chef-workstation/pull/1087) ([tarcinil](https://github.com/tarcinil)) <!-- 0.17.19 -->
 - Explicitly build bcrypt_pbkdf-ruby [#1079](https://github.com/chef/chef-workstation/pull/1079) ([marcparadise](https://github.com/marcparadise)) <!-- 0.17.18 -->
 - Fixing a bug I found on the site [#1085](https://github.com/chef/chef-workstation/pull/1085) ([tyler-ball](https://github.com/tyler-ball)) <!-- 0.17.17 -->
 - Add Windows 10 Tester [#1072](https://github.com/chef/chef-workstation/pull/1072) ([christopher-snapp](https://github.com/christopher-snapp)) <!-- 0.17.16 -->
